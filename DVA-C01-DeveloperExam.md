@@ -57,7 +57,14 @@ EC2
 
 Launch EC2 for running linux
 
+Topics
 
+IAM Users
+Security groups
+public ip vs private ip vd elastic ip
+EC2 User Data - bootstrap your instance
+EC2 load balancer - application vs network LB
+EC2 Auto scalaing grp
  
  
 
