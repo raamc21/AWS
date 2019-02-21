@@ -1,0 +1,32 @@
+ssh to EC2 instance
+
+Download the private key and configur it in putty
+
+SSH-Auth and refer the private key
+
+ec2-user@public-ip
+
+after connecting run the following commands
+
+yum update -y --> install all the latest patches
+
+yum install -y httpd.x86_64
+
+systemctl start httpd.service
+systemctl enable httpd.service
+curl localhost:80
+
+yum install java
+
+
+Install Jenkins
+
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key
+
+yum install jenkins
+
+http://18.223.113.37:8080/
+
+chanemr1
+Toyota@123
